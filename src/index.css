@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* Scroll suave al hacer clic en los enlaces del menú.
+   El padding evita que el Navbar fijo tape el título de cada sección. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
