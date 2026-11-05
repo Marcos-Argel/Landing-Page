@@ -1,4 +1,7 @@
-const WHATSAPP_PHONE = "";
+import siteConfig from "../../data/siteConfig";
+
+// El número se cambia en src/data/siteConfig.js (lo usa también el Footer)
+const WHATSAPP_PHONE = siteConfig.contacto.whatsapp;
 
 function WhatsAppButton() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}`;
@@ -9,7 +12,7 @@ function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Abrir WhatsApp"
-      title="Configura WHATSAPP_PHONE para enlazar con el equipo"
+      title="Escríbenos por WhatsApp"
       className="fixed bottom-5 right-5 z-50 flex size-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-slate-900/20 transition duration-200 hover:scale-105 hover:bg-[#1ebe5d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#128C7E] sm:bottom-7 sm:right-7 sm:size-16"
     >
       <svg
