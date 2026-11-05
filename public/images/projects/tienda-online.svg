@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="product" x1="454" y1="145" x2="642" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h800v500H0z"/>
+  <circle cx="95" cy="84" r="107" fill="#fff" fill-opacity=".12"/>
+  <rect x="54" y="52" width="692" height="396" rx="22" fill="#fff"/>
+  <rect x="54" y="52" width="692" height="48" rx="22" fill="#f3f4f6"/>
+  <path fill="#f3f4f6" d="M54 78h692v22H54z"/>
+  <circle cx="82" cy="76" r="6" fill="#f87171"/>
+  <circle cx="102" cy="76" r="6" fill="#fbbf24"/>
+  <circle cx="122" cy="76" r="6" fill="#34d399"/>
+  <rect x="80" y="130" width="278" height="13" rx="6.5" fill="#134e4a"/>
+  <rect x="80" y="158" width="230" height="7" rx="3.5" fill="#9ca3af"/>
+  <rect x="80" y="175" width="192" height="7" rx="3.5" fill="#d1d5db"/>
+  <rect x="80" y="211" width="128" height="38" rx="19" fill="#0f766e"/>
+  <rect x="80" y="287" width="114" height="108" rx="12" fill="#f0fdfa"/>
+  <rect x="207" y="287" width="114" height="108" rx="12" fill="#f0fdfa"/>
+  <rect x="334" y="287" width="114" height="108" rx="12" fill="#f0fdfa"/>
+  <rect x="95" y="301" width="84" height="53" rx="8" fill="#ccfbf1"/>
+  <rect x="222" y="301" width="84" height="53" rx="8" fill="#cffafe"/>
+  <rect x="349" y="301" width="84" height="53" rx="8" fill="#fef3c7"/>
+  <rect x="95" y="366" width="53" height="6" rx="3" fill="#0f766e"/>
+  <rect x="222" y="366" width="53" height="6" rx="3" fill="#0f766e"/>
+  <rect x="349" y="366" width="53" height="6" rx="3" fill="#0f766e"/>
+  <circle cx="545" cy="250" r="124" fill="#ccfbf1"/>
+  <ellipse cx="548" cy="357" rx="115" ry="14" fill="#115e59" fill-opacity=".12"/>
+  <path d="m476 204 17-35h111l17 35v127c0 12-10 22-22 22H498c-12 0-22-10-22-22V204Z" fill="url(#product)"/>
+  <path d="M476 204h145M511 202v-18c0-19 15-34 34-34s34 15 34 34v18" stroke="#92400e" stroke-width="10" stroke-linecap="round"/>
+  <rect x="514" y="255" width="68" height="34" rx="17" fill="#fff" fill-opacity=".8"/>
+  <path d="M532 272h32" stroke="#0f766e" stroke-width="5" stroke-linecap="round"/>
+</svg>

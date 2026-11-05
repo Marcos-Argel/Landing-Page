@@ -4,6 +4,7 @@ import Hero from "../components/sections/Hero";
 import Features from "../components/sections/Features";
 import Contact from "../components/sections/Contact";
 import Services from "../components/sections/Services";
+import ProjectGallery from "../components/sections/ProjectGallery";
 
 // Página principal: junta todas las secciones en orden
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <main>
         <Hero />
         <Services />
+        <ProjectGallery />
         <Features />
         <Contact />
       </main>
