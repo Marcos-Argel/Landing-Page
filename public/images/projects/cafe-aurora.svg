@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#312e81"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="455" y1="140" x2="650" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#fdba74"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h800v500H0z"/>
+  <circle cx="640" cy="90" r="95" fill="#fff" fill-opacity=".08"/>
+  <rect x="54" y="52" width="692" height="396" rx="22" fill="#fff" fill-opacity=".96"/>
+  <rect x="54" y="52" width="692" height="48" rx="22" fill="#f3f4f6"/>
+  <path fill="#f3f4f6" d="M54 78h692v22H54z"/>
+  <circle cx="82" cy="76" r="6" fill="#f87171"/>
+  <circle cx="102" cy="76" r="6" fill="#fbbf24"/>
+  <circle cx="122" cy="76" r="6" fill="#34d399"/>
+  <rect x="80" y="132" width="250" height="12" rx="6" fill="#312e81"/>
+  <rect x="80" y="161" width="210" height="7" rx="3.5" fill="#9ca3af"/>
+  <rect x="80" y="177" width="230" height="7" rx="3.5" fill="#d1d5db"/>
+  <rect x="80" y="218" width="128" height="38" rx="19" fill="#7c3aed"/>
+  <rect x="80" y="294" width="244" height="7" rx="3.5" fill="#9ca3af"/>
+  <rect x="80" y="311" width="215" height="7" rx="3.5" fill="#d1d5db"/>
+  <circle cx="554" cy="253" r="118" fill="#fef3c7"/>
+  <ellipse cx="550" cy="350" rx="125" ry="15" fill="#7c2d12" fill-opacity=".12"/>
+  <path d="M477 217h136l-13 112c-2 17-17 30-34 30h-42c-17 0-32-13-34-30l-13-112Z" fill="url(#coffee)"/>
+  <path d="M611 233h21c25 0 39 29 24 48l-23 29h-27" stroke="#fdba74" stroke-width="14" stroke-linecap="round"/>
+  <path d="M509 197c-14-20 15-27 4-49m42 49c-14-20 15-27 4-49m42 49c-14-20 15-27 4-49" stroke="#fff" stroke-opacity=".8" stroke-width="8" stroke-linecap="round"/>
+</svg>
