@@ -67,3 +67,5 @@ landing-page/
 - React 19
 - Vite 8
 - Tailwind CSS 4
+
+<!-- Setup inicial del proyecto base - [Luis Vergara] -->
