@@ -6,8 +6,8 @@ function Button({ children, variant = "primary", onClick }) {
 
   // Estilos según el tipo de botón
   const variants = {
-    primary: "bg-indigo-600 text-white hover:bg-indigo-700",
-    secondary: "bg-white text-indigo-600 border border-indigo-600 hover:bg-indigo-50",
+    primary: "bg-violet-700 text-white hover:bg-violet-800",
+    secondary: "bg-white text-violet-700 border border-violet-700 hover:bg-violet-50",
   };
 
   return (

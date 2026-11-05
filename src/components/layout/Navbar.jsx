@@ -7,9 +7,11 @@ function Navbar() {
         <span className="text-xl font-bold text-indigo-600">MiProyecto</span>
 
         {/* Links de navegación */}
-        <ul className="hidden md:flex gap-8 text-gray-600 font-medium">
+        <ul className="hidden md:flex gap-5 text-sm text-gray-600 font-medium">
           <li><a href="#inicio" className="hover:text-indigo-600">Inicio</a></li>
           <li><a href="#caracteristicas" className="hover:text-indigo-600">Características</a></li>
+          <li><a href="#equipo" className="hover:text-indigo-600">Equipo</a></li>
+          <li><a href="#preguntas-frecuentes" className="hover:text-indigo-600">Preguntas frecuentes</a></li>
           <li><a href="#contacto" className="hover:text-indigo-600">Contacto</a></li>
         </ul>
       </div>
